@@ -9,7 +9,8 @@ class Viewer extends Component {
     this.state = {intervalId: ''};
   }
 
-  componentWillReceiveProps(){
+  componentWillReceiveProps(nextProps){
+    console.log(nextProps);
     let index = 0;
 
     clearInterval(this.state.intervalId);
@@ -21,7 +22,7 @@ class Viewer extends Component {
       index = (index + 1)%(this.props.beats);
 
     },
-    60000/this.props.bpm);
+    60000/nextProps.bpm);
 
     this.setState({intervalId: intervalId});
 
