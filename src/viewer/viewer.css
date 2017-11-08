@@ -1,0 +1,14 @@
+.beatColumn{
+  display: inline-block;
+  width: auto;
+  height: 100%;
+  background-color: #242424;
+  border-right: 1px solid rgba(255,255,255,0.2);
+}
+
+.beatColumn.active{
+  display: inline-block;
+  width: auto;
+  height: 100%;
+  background-color: #ffd428;
+}
