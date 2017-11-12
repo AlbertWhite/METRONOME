@@ -22,11 +22,11 @@ class Controller extends Component{
 
   countBPM(action){
     if(action === "add"){
-      this.setState({bpm: this.state.bpm + 1});
-      this.props.changeBPM(this.state.bpm + 1);
+      this.setState({bpm: parseInt(this.state.bpm) + 1});
+      this.props.changeBPM(parseInt(this.state.bpm) + 1);
     }else if(action === "delete"){
-      this.setState({bpm: this.state.bpm - 1});
-      this.props.changeBPM(this.state.bpm - 1);
+      this.setState({bpm: parseInt(this.state.bpm) - 1});
+      this.props.changeBPM(parseInt(this.state.bpm) - 1);
     }
   }
 
