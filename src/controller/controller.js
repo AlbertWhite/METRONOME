@@ -48,7 +48,7 @@ class Controller extends Component{
       <div className="title">
         <span className="yellow">METRO</span>
         <span className="grey">NOME</span>
-        <span className="close" onClick={this.closeController.bind(this)}>x</span>
+        <span className="close" onClick={this.closeController.bind(this)}></span>
       </div>
       <hr className="title-hr"/>
       <div className="dropdown-div">

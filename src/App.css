@@ -2,7 +2,7 @@ html, body{
   width: 100%;
   height: 100%;
   margin: 0px;
-  font-family: "Roboto"
+  font-family: "Roboto",sans-serif;
 }
 
 i{
@@ -30,7 +30,7 @@ i{
   -webkit-transform: translate(50px, 100px);
   transform: translate(-50%, -50%);
   margin: 0 auto;
-  background: rgba(255,255,255,0.95);
+  background: rgba(255,255,255,1);
   width: 500px;
   height: auto;
   padding: 20px 20px 50px 20px;
